@@ -1,0 +1,25 @@
+/* En styles.css */
+
+.match {
+    background-color: #f9f9f9;
+    border: 1px solid #ccc;
+    padding: 1em;
+    margin-bottom: 1em;
+}
+
+.match h3 {
+    margin-top: 0;
+}
+
+.match p {
+    color: #666;
+    margin-bottom: 0.5em;
+}
+
+.match button {
+    background-color: #b22222;
+    color: white;
+    border: none;
+    padding: 0.5em 1em;
+    cursor: pointer;
+}
