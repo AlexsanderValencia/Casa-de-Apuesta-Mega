@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Casa de Apuesta Mega - Videos</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Casa de Apuesta Mega</h1>
+    </header>
+    <nav>
+        <a href="#inicio">Inicio</a>
+        <a href="#apuestas">Apuestas</a>
+        <a href="#registro">Registrarse</a>
+        <a href="#contacto">Contacto</a>
+        <a href="#videos">Videos</a>
+    </nav>
+    <div class="content" id="inicio">
+        <h2>Bienvenido a Casa de Apuesta Mega</h2>
+        <p>La mejor plataforma para tus apuestas deportivas.</p>
+    </div>
+    <div class="content" id="apuestas">
+        <h2>Partidos Disponibles</h2>
+        <!-- Aquí van los partidos -->
+    </div>
+    <div class="content" id="registro">
+        <h2>Registrarse</h2>
+        <form id="registerForm">
+            <label for="username">Nombre de Usuario:</label>
+            <input type="text" id="username" name="username" required><br><br>
+            <label for="password">Contraseña:</label>
+            <input type="password" id="password" name="password" required><br><br>
+            <button type="submit">Registrar</button>
+        </form>
+    </div>
+    <div class="content" id="contacto">
+        <h2>Contacto</h2>
+        <p>Para consultas, contáctanos en: contacto@casadeapuestamega.com</p>
+    </div>
+    <div class="content" id="videos">
+        <h2>Videos</h2>
+        <!-- Aquí se incrustará el video de YouTube -->
+        <div class="video-container">
+            <!-- Pega aquí el código de incrustación de YouTube -->
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/tu-video" frameborder="0" allowfullscreen></iframe>
+        </div>
+    </div>
+    <footer>
+        <p>&copy; 2024 Casa de Apuesta Mega. Todos los derechos reservados.</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
