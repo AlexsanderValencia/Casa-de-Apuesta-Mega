@@ -44,7 +44,7 @@
         <!-- Aquí se incrustará el video de YouTube -->
         <div class="video-container">
             <!-- Pega aquí el código de incrustación de YouTube -->
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/tu-video" frameborder="0" allowfullscreen></iframe>
+            <iframe width="560" height="315" src="https://www.youtube.com/watch?v=HgJ5AgCWFdY&list=RDhDVFpD1oYaQ&index=5" frameborder="0" allowfullscreen></iframe>
         </div>
     </div>
     <footer>
